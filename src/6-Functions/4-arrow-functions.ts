@@ -4,6 +4,8 @@ let holidaySales2 = (
   tax: number,
   discount: number
 ): number => {
+  let department: string = "Tech";
+
   let price: number = 0;
 
   if (product === "laptops") price = 900;
