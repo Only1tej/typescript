@@ -1,7 +1,7 @@
 //Basic Types
 //Challenge 1
 //Create a variable with the type number and assign it an arbitrary value
-let score: number = 19;
+// let score: number = 19;
 
 //Challenge 2
 //Create a variable with the type string and assign two arbitrary words using addition operator

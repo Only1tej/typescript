@@ -5,3 +5,4 @@ productName = (product, price = 10.99) => {
 };
 
 console.log(productName("TS Bootcamp"));
+console.log(productName("TS Bootcamp", 9.99));
