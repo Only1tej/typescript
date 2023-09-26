@@ -67,14 +67,14 @@ console.log(check2);
 //   holidaySale: () => string;
 // };
 // second way
-type Product = {
-  holidaySales(): string;
-  seasonalSales(): string;
-};
+// type Product = {
+//   holidaySales(): string;
+//   seasonalSales(): string;
+// };
 
-const product: Product = {
-  holidaySales: () => "sale is on",
-  seasonalSales: () => "Sale is off for now, till futher notice",
-};
-console.log(product.holidaySales());
-console.log(product.seasonalSales());
+// const product: Product = {
+//   holidaySales: () => "sale is on",
+//   seasonalSales: () => "Sale is off for now, till futher notice",
+// };
+// console.log(product.holidaySales());
+// console.log(product.seasonalSales());

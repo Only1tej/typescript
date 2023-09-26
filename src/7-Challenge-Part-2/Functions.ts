@@ -43,8 +43,8 @@ function decideOperation(num: number, bool: boolean): number {
 
 //Challenge 6
 //Create a function that takes in an array of numbers and returns that same array but if anything else is passed within that array (like string or bool), it throws an error
-function myArr(arr: number[]): number[] {
-  return arr;
-}
-console.log(myArr([2, 3, 4, 5, 6]));
+// function myArr(arr: number[]): number[] {
+//   return arr;
+// }
+// console.log(myArr([2, 3, 4, 5, 6]));
 // console.log(myArr([1, "3", 4]));

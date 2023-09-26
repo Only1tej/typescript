@@ -17,7 +17,3 @@ function decideOperation(num, bool) {
         return num + 1;
     return num - 1;
 }
-function myArr(arr) {
-    return arr;
-}
-console.log(myArr([2, 3, 4, 5, 6]));

@@ -1,5 +1,4 @@
 "use strict";
-let numbers = [1, 2, 3, 4, 5];
 let products = ["hats", "shirts", "jeans"];
 let mixData1 = ["hi", 25, "hello"];
 let mixData2 = ["hi", 25, "hello", true];

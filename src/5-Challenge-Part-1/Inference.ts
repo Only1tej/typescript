@@ -1,6 +1,6 @@
 //Challenge 1
 //Assign a number to a variable with no type annotation
-let number = 31;
+// let number = 31;
 let string = "string";
 let size = "large";
 
