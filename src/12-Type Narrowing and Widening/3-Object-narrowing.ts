@@ -28,3 +28,4 @@ let magazineName: MagazineName = magazine;
 console.log(magazineName);
 console.log(magazineName.name);
 //Object narrowing is when you don't have access to other properties except the name
+//Typescript is of structural typing not nominal typing
