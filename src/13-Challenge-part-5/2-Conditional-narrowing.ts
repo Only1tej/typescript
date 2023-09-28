@@ -28,9 +28,9 @@ console.log(arrayOrItem<string>("What's up"));
 
 //Challenge 3
 //Create a function that accept an object, and that object has to be create with the object type. The function could accept a singular object or an array of objects, the function return depends on what the function accepts
-type Employee = {
-  name: string;
-};
+// type Employee = {
+//   name: string;
+// };
 
 function myFunc(employeeOrEmployees: Employee | Employee[]) {
   if (Array.isArray(employeeOrEmployees)) {
