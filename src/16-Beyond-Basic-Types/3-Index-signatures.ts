@@ -47,15 +47,15 @@
 // };
 
 //----------------------------------------
-type Product = {
-  [k: string]: {
-    name: string;
-    price: number;
-  };
-};
+// type Product = {
+//   [k: string]: {
+//     name: string;
+//     price: number;
+//   };
+// };
 
-let course: Product = {
-  TS: { name: "TS Bootcamp", price: 10.99 },
-  JS: { name: "JS Bootcamp", price: 9.99 },
-  OS: { name: "OS Bootcamp", price: 11.99 },
-};
+// let course: Product = {
+//   TS: { name: "TS Bootcamp", price: 10.99 },
+//   JS: { name: "JS Bootcamp", price: 9.99 },
+//   OS: { name: "OS Bootcamp", price: 11.99 },
+// };
