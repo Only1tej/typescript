@@ -1,5 +1,4 @@
 "use strict";
-let myName = "Muslim" + " " + "Helale";
 let option = true || false;
 let option2 = true || true;
 let option3 = false || false;

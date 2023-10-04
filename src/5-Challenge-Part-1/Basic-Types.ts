@@ -5,7 +5,7 @@
 
 //Challenge 2
 //Create a variable with the type string and assign two arbitrary words using addition operator
-let myName: string = "Muslim" + " " + "Helale";
+// let myName: string = "Muslim" + " " + "Helale";
 
 // console.log(myName);
 
