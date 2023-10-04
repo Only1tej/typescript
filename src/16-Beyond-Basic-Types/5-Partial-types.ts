@@ -7,6 +7,14 @@
 // let course: Product = { name: "Mill" };
 
 //...............................................
+// type Product = Partial<{
+//   name: string;
+//   price: number;
+// }>;
+// or
+// type PartialOnlyProduct = Partial<{ name: string; price: number }>;
+//..........................
+//or
 // type Product = {
 //   name: string;
 //   price: number;
