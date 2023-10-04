@@ -16,29 +16,29 @@
 
 //Challenge 2
 //Access the published property from the "myCourse" object using the bracket notation and dot notation
-type OnlineCourse = {
-  name: string;
-  platform: string;
-  features: string[];
-  "meta-data": {
-    published: boolean;
-  };
-};
+// type OnlineCourse = {
+//   name: string;
+//   platform: string;
+//   features: string[];
+//   "meta-data": {
+//     published: boolean;
+//   };
+// };
 
-let myCourse: OnlineCourse = {
-  name: "TS Bootcamp",
-  platform: "Udemy",
-  features: ["practical", "Excercise oriented", "Modern TS concepts"],
-  "meta-data": {
-    published: true,
-  },
-};
+// let myCourse: OnlineCourse = {
+//   name: "TS Bootcamp",
+//   platform: "Udemy",
+//   features: ["practical", "Excercise oriented", "Modern TS concepts"],
+//   "meta-data": {
+//     published: true,
+//   },
+// };
 // first way
-const check = myCourse["meta-data"]["published"];
-console.log(check);
+// const check = myCourse["meta-data"]["published"];
+// console.log(check);
 //second way
-const check2 = myCourse["meta-data"].published;
-console.log(check2);
+// const check2 = myCourse["meta-data"].published;
+// console.log(check2);
 
 //Challenge 3
 // (Tip: Type annotation does not refer to the object key but to the object value
