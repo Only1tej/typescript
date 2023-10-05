@@ -3,7 +3,7 @@
 // console.log(numbers);
 
 //Array of strings
-let products: string[] = ["hats", "shirts", "jeans"];
+// let products: string[] = ["hats", "shirts", "jeans"];
 // console.log(products);
 
 //Array of strings and numbers

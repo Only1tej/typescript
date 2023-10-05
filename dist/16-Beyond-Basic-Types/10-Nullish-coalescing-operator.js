@@ -1,0 +1,10 @@
+"use strict";
+console.log("" !== null && "" !== void 0 ? "" : 5);
+console.log(0 !== null && 0 !== void 0 ? 0 : 5);
+console.log(false !== null && false !== void 0 ? false : 5);
+console.log(null !== null && null !== void 0 ? null : 5);
+console.log(undefined !== null && undefined !== void 0 ? undefined : 5);
+console.log(NaN !== null && NaN !== void 0 ? NaN : 5);
+console.log("hi" !== null && "hi" !== void 0 ? "hi" : "hey");
+console.log("hi" !== null && "hi" !== void 0 ? "hi" : 0);
+console.log(false !== null && false !== void 0 ? false : 0);
