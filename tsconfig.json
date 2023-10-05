@@ -13,6 +13,7 @@
     "noUnusedParameters": true,
     "noUnusedLocals": false,
     "allowUnreachableCode": false,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "preserveConstEnums": true
   }
 }

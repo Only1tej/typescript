@@ -1,6 +1,6 @@
 const enum GitRepo {
   NotCommitted,
-  Committed,
+  Committed = 5 + 2,
 }
 
 function isRepoCommitted(repo: GitRepo): boolean {

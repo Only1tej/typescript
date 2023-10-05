@@ -1,4 +1,10 @@
 "use strict";
+var StudentDetails;
+(function (StudentDetails) {
+    StudentDetails[StudentDetails["ID"] = 1] = "ID";
+    StudentDetails["Name"] = "John";
+    StudentDetails["Major"] = "Arts";
+})(StudentDetails || (StudentDetails = {}));
 let studentID = 1;
 let studentName = "John";
 let studentMajor = "Arts";
