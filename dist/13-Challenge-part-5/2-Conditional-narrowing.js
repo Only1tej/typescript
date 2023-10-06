@@ -19,11 +19,3 @@ console.log(arrayOrItem([1, 2, 3, 4]));
 console.log(arrayOrItem([false, true, false]));
 console.log(arrayOrItem(["Hi", "Hey", "Hello"]));
 console.log(arrayOrItem("What's up"));
-function myFunc(employeeOrEmployees) {
-    if (Array.isArray(employeeOrEmployees)) {
-        return employeeOrEmployees.length;
-    }
-    else {
-        return employeeOrEmployees.name;
-    }
-}

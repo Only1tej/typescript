@@ -32,10 +32,10 @@ console.log(arrayOrItem<string>("What's up"));
 //   name: string;
 // };
 
-function myFunc(employeeOrEmployees: Employee | Employee[]) {
-  if (Array.isArray(employeeOrEmployees)) {
-    return employeeOrEmployees.length;
-  } else {
-    return employeeOrEmployees.name;
-  }
-}
+// function myFunc(employeeOrEmployees: Employee | Employee[]) {
+//   if (Array.isArray(employeeOrEmployees)) {
+//     return employeeOrEmployees.length;
+//   } else {
+//     return employeeOrEmployees.name;
+//   }
+// }
