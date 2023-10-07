@@ -1,4 +1,3 @@
-"use strict";
 let string = "string";
 let size = "large";
 let book = "And the Montain echoed";

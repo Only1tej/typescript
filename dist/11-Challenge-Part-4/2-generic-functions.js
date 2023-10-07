@@ -1,4 +1,3 @@
-"use strict";
 function returnArg(elements) {
     return elements;
 }

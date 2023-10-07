@@ -1,4 +1,3 @@
-"use strict";
 const alanWrench = {
     id: 1,
     category: "Hardware",

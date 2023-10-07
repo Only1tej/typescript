@@ -1,4 +1,3 @@
-"use strict";
 var GitRepo;
 (function (GitRepo) {
     GitRepo[GitRepo["NotCommitted"] = 0] = "NotCommitted";

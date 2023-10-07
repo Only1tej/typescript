@@ -1,4 +1,3 @@
-"use strict";
 let mixData1 = ["hi", 25, "hello"];
 let mixData2 = ["hi", 25, "hello", true];
 let myNums = [

@@ -1,4 +1,3 @@
-"use strict";
 console.log("" !== null && "" !== void 0 ? "" : 5);
 console.log(0 !== null && 0 !== void 0 ? 0 : 5);
 console.log(false !== null && false !== void 0 ? false : 5);

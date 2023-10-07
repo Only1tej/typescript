@@ -1,4 +1,3 @@
-"use strict";
 let myTuple = ["Typescript", "Javascript"];
 console.log(myTuple);
 let myTuple2 = [12, 12];

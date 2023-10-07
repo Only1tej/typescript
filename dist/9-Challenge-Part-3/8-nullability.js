@@ -1,4 +1,3 @@
-"use strict";
 let vague = undefined;
 let vague1 = true ? undefined : true;
 let vague2;

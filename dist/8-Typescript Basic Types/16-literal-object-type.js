@@ -1,4 +1,3 @@
-"use strict";
 function studentDB({ fullName }) {
     return fullName;
 }

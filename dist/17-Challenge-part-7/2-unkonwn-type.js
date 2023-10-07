@@ -1,4 +1,3 @@
-"use strict";
 let favMovie = "The good, the bad and the ugly";
 let someMovie = favMovie;
 let movieTicketPrice = someMovie;

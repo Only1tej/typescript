@@ -17,8 +17,8 @@ let myStringArr: Array<Array<string>> = [
 //Create a function whose return type is generic array of numbers and add some values as well
 function someArr(): Array<number> {
   let numArr = [];
-  numArr.push(15);
-  numArr.push(35);
+  // numArr.push(15);
+  // numArr.push(35);
   return numArr;
 }
 console.log(someArr());
@@ -28,8 +28,8 @@ console.log("Hello");
 //Create a function that return a generic array of an array of numbers and add some values as well
 function someArray(): Array<Array<number>> {
   let numArr = [];
-  numArr.push([15]);
-  numArr.push([35]);
+  // numArr.push([15]);
+  // numArr.push([35]);
   return numArr;
 }
 console.log(someArray());
@@ -38,8 +38,8 @@ console.log(someArray());
 //Create a function whose return type is a generic array of an array of strings and we need to add values
 function someStrings(): Array<Array<string>> {
   let strArr = [];
-  strArr.push(["Hi"]);
-  strArr.push(["Hello", "Typescript"], ["Typescript"]);
+  // strArr.push(["Hi"]);
+  // strArr.push(["Hello", "Typescript"], ["Typescript"]);
   return strArr;
 }
 console.log(someStrings());

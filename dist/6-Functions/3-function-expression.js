@@ -1,4 +1,3 @@
-"use strict";
 let holidaySales1 = function (product, sales, tax, discount) {
     let price = 0;
     if (product === "pens")

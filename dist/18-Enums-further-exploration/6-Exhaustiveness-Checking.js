@@ -1,4 +1,3 @@
-"use strict";
 var Courses;
 (function (Courses) {
     Courses[Courses["TS"] = 0] = "TS";

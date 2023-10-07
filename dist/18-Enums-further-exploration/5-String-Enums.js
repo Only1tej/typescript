@@ -1,4 +1,3 @@
-"use strict";
 var Employees;
 (function (Employees) {
     Employees["Name"] = "John Smith";

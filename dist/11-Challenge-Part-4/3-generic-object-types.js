@@ -1,4 +1,3 @@
-"use strict";
 const myAc = {
     winter: "Warm",
     summer: "Cold",

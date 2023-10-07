@@ -1,4 +1,3 @@
-"use strict";
 var StudentDetails;
 (function (StudentDetails) {
     StudentDetails[StudentDetails["ID"] = 1] = "ID";

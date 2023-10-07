@@ -1,4 +1,3 @@
-"use strict";
 var Products;
 (function (Products) {
     Products[Products["TS Bootcamp"] = 1] = "TS Bootcamp";

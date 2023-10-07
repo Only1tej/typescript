@@ -1,4 +1,3 @@
-"use strict";
 let holidaySales2 = (product, sales, tax, discount) => {
     let price = 0;
     if (product === "laptops")

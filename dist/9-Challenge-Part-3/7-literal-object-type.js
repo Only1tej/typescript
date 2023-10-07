@@ -1,4 +1,3 @@
-"use strict";
 function getName({ name }) {
     return name;
 }
