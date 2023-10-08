@@ -1,3 +1,4 @@
+"use strict";
 function productView(arg) {
     if ((typeof arg === "number" && arg > 0) || arg === true) {
         return true;

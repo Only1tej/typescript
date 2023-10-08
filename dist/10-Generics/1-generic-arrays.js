@@ -1,3 +1,4 @@
+"use strict";
 let boolValues = [true, false];
 let nestedArr = [
     [1, 2],

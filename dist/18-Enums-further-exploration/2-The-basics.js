@@ -1,3 +1,4 @@
+"use strict";
 var Crops;
 (function (Crops) {
     Crops[Crops["Barley"] = "Barley".length] = "Barley";

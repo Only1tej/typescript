@@ -1,3 +1,4 @@
+"use strict";
 let magazine = {
     name: "Health Unleashed",
     author: "Muslim Helalee",

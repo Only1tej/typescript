@@ -29,8 +29,8 @@ type Product = {
   noOfStudents: number;
 };
 
-const product: Product = {
-  FlexBox: 10.99,
-  noOfStudents: 42.0,
-};
-console.log(product);
+// const product: Product = {
+//   FlexBox: 10.99,
+//   noOfStudents: 42.0,
+// };
+// console.log(product);

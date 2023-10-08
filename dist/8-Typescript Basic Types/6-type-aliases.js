@@ -1,3 +1,4 @@
+"use strict";
 const tsCourse = {
     name: "TS Bootcamp",
     price: 10.99,

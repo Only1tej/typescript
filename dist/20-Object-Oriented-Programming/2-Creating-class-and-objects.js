@@ -1,3 +1,4 @@
+"use strict";
 class Robot {
     constructor(id, model, name) {
         this.id = id;

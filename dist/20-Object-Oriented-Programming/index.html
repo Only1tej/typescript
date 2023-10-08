@@ -4,10 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      img {
+        height: 400px;
+        width: 450px;
+        object-fit: cover;
+        filter: blur(10px);
+        transition: 0.25s;
+      }
+      .un-blur {
+        filter: blur(0);
+      }
+    </style>
   </head>
   <body>
+    <img class="img" src="image.jpg" alt="" />
     <script src="2-Creating-class-and-objects.js"></script>
     <script src="3-This-keyword-with-call-apply-bind-methods.js"></script>
     <script src="4-Brief-overview-of-scope.js"></script>
+    <script src="5-lexical-scope-and-arrow-function.js"></script>
+    <script src="6-real-world-sample-of-this-keyword.js"></script>
   </body>
 </html>
