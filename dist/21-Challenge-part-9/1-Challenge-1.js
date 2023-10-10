@@ -50,10 +50,3 @@ function APICallStatus(s) {
 }
 let apiCallResult = APICallStatus("10");
 console.log(apiCallResult.response === "success" ? apiCallResult.value : undefined);
-class TSCourse {
-    constructor(name) {
-        this.name = name;
-    }
-}
-let course = new TSCourse("TS Bootcamp");
-console.log(course);
