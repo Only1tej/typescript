@@ -1,11 +1,4 @@
 "use strict";
-function myFunc() {
-    var num = 10;
-    let num1 = 12;
-    console.log(num);
-    console.log(num1);
-}
-myFunc();
 {
     var nums2 = 100;
     let nums3 = 200;

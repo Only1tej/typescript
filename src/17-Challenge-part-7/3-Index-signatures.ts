@@ -12,15 +12,15 @@
 
 //Challenge 2
 //Create an index signature that maps a product name a string to a product price of type number or undefined, then create an object from this type.
-type Productss = {
-  [name: string]: number | undefined;
-};
+// type Productss = {
+//   [name: string]: number | undefined;
+// };
 
-const products: Productss = {
-  TS: 10.99,
-  JS: 9.99,
-  Remix: undefined,
-};
+// const products: Productss = {
+//   TS: 10.99,
+//   JS: 9.99,
+//   Remix: undefined,
+// };
 
 //Challenge 3
 //What will the product of this log?

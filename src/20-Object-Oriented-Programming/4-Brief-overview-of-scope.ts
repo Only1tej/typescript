@@ -12,13 +12,13 @@
 
 //Local/Function scope--------------------------------
 //var is a function scope, cannot work outside function block...
-function myFunc() {
-  var num: number = 10;
-  let num1: number = 12;
-  console.log(num);
-  console.log(num1);
-}
-myFunc();
+// function myFunc() {
+//   var num: number = 10;
+//   let num1: number = 12;
+//   console.log(num);
+//   console.log(num1);
+// }
+// myFunc();
 // console.log(num);
 // console.log(num1);
 

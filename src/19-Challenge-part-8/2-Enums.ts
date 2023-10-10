@@ -21,28 +21,28 @@ enum Products {
   //   "Tailwind",
 }
 
-function setCoursePrice(course: Products): string {
-  switch (course) {
-    case Products["TS Bootcamp"]:
-      return "$25.99";
-    case Products["JS Bootcamp"]:
-      return "$29.99";
-    case Products["Python Bootcamp"]:
-      return "$12.55";
-    case Products["CSS Layout"]:
-      return "$10.45";
-    case Products["Flexbox Grid course"]:
-      return "$16.56";
-    default:
-      return courseWarning(course);
-    //   throw new Error(`The ${course} course has no price yet.`);
-  }
-}
+// function setCoursePrice(course: Products): string {
+//   switch (course) {
+//     case Products["TS Bootcamp"]:
+//       return "$25.99";
+//     case Products["JS Bootcamp"]:
+//       return "$29.99";
+//     case Products["Python Bootcamp"]:
+//       return "$12.55";
+//     case Products["CSS Layout"]:
+//       return "$10.45";
+//     case Products["Flexbox Grid course"]:
+//       return "$16.56";
+//     default:
+//       return courseWarning(course);
+//     //   throw new Error(`The ${course} course has no price yet.`);
+//   }
+// }
 
-function courseWarning(course: never): never {
-  throw new Error(`The ${course} course has no price yet.`);
-}
+// function courseWarning(course: never): never {
+//   throw new Error(`The ${course} course has no price yet.`);
+// }
 
-console.log(setCoursePrice(Products["TS Bootcamp"]));
-console.log(setCoursePrice(Products["JS Bootcamp"]));
-console.log(setCoursePrice(Products["Flexbox Grid course"]));
+// console.log(setCoursePrice(Products["TS Bootcamp"]));
+// console.log(setCoursePrice(Products["JS Bootcamp"]));
+// console.log(setCoursePrice(Products["Flexbox Grid course"]));
