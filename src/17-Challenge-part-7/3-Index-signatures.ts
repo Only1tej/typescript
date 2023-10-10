@@ -24,10 +24,10 @@ const products: Productss = {
 
 //Challenge 3
 //What will the product of this log?
-type Product = {
-  [price: string]: number;
-  noOfStudents: number;
-};
+// type Product = {
+//   [price: string]: number;
+//   noOfStudents: number;
+// };
 
 // const product: Product = {
 //   FlexBox: 10.99,

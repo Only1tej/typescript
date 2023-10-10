@@ -7,5 +7,3 @@ class MyProduct {
         }, 100);
     }
 }
-let product = new MyProduct();
-product.onlineCourse();

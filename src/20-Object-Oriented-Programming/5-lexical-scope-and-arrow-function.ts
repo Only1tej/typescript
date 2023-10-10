@@ -26,5 +26,5 @@ class MyProduct {
   }
 }
 
-let product = new MyProduct();
-product.onlineCourse();
+// let product = new MyProduct();
+// product.onlineCourse();
