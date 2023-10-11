@@ -13,7 +13,7 @@ console.log(songName);
 
 //Challenge 3
 //Stop this code from compiling, because there is error prone type annotation, fix it.
-const productPrice: any = 10.99;
+// const productPrice: any = 10.99;
 // const productPrice: number = 10.99;
 // const courseName: string = productPrice;
 // console.log(courseName);

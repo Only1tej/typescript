@@ -12,14 +12,14 @@
 //Challenge 2
 //Perform an exhaustiveness checking for the previous enum and return their prices.
 
-enum Products {
-  "TS Bootcamp" = 1,
-  "JS Bootcamp",
-  "Python Bootcamp",
-  "CSS Layout",
-  "Flexbox Grid course",
-  //   "Tailwind",
-}
+// enum Products {
+//   "TS Bootcamp" = 1,
+//   "JS Bootcamp",
+//   "Python Bootcamp",
+//   "CSS Layout",
+//   "Flexbox Grid course",
+//   //   "Tailwind",
+// }
 
 // function setCoursePrice(course: Products): string {
 //   switch (course) {

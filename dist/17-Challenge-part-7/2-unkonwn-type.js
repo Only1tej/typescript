@@ -6,4 +6,3 @@ console.log(movieTicketPrice);
 const favSong = "Un Dice";
 const songName = typeof favSong === "string" ? favSong : "";
 console.log(songName);
-const productPrice = 10.99;
