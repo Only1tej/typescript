@@ -15,5 +15,5 @@ console.log(songName);
 //Stop this code from compiling, because there is error prone type annotation, fix it.
 const productPrice: any = 10.99;
 // const productPrice: number = 10.99;
-const courseName: string = productPrice;
-console.log(courseName);
+// const courseName: string = productPrice;
+// console.log(courseName);
