@@ -16,8 +16,8 @@
 // };
 
 // type CourseName = Product["name"];
-// const courseName: CourseName = "TS";
-// console.log(courseName);
+// const courseNames: CourseName = "TS";
+// console.log(courseNames);
 
 //-----------------------------------
 // type Product = {

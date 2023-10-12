@@ -12,7 +12,7 @@ type MixedTYPES =
 
 type Strings = Extract<MixedTYPES, string>;
 type Numbers = Extract<MixedTYPES, number>;
-type Product = Extract<MixedTYPES, { name: "TS" }>;
+// type Product = Extract<MixedTYPES, { name: "TS" }>;
 type Products = Extract<MixedTYPES, { price: number }>;
 type ProductsArr1 = Extract<MixedTYPES, []>;
 type ProductsArr2 = Extract<MixedTYPES, string[]>;
