@@ -1,8 +1,8 @@
 //You must have extracted the type before you can access the key
-const course = {
-  name: "TS",
-  price: 10.99,
-};
+// const course = {
+//   name: "TS",
+//   price: 10.99,
+// };
 
 // type Product = typeof course;
 // type ProductKeys = keyof Product;
@@ -13,15 +13,15 @@ const course = {
 //   price: 9.99,
 // };
 
-function getCourseInfo<T, K extends keyof T>(course: T, info: K) {
-  return course[info];
-}
+// function getCourseInfo<T, K extends keyof T>(course: T, info: K) {
+//   return course[info];
+// }
 
-let courseName = getCourseInfo(course, "name");
-let coursePrice = getCourseInfo(course, "price");
+// let courseName = getCourseInfo(course, "name");
+// let coursePrice = getCourseInfo(course, "price");
 
-console.log(courseName);
-console.log(coursePrice);
+// console.log(courseName);
+// console.log(coursePrice);
 
 // K extends keyof T => K strictly represents key of T, K must at the least include all the keys from the object called T
 
