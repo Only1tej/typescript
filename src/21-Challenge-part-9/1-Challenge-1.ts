@@ -118,24 +118,24 @@ type User = User1 | User2;
 // Challenge 7
 // Create a product class with 2 properties, name and number of students. Add a method to this class that would return the string 'Best Seller' if a course has equal to or more than 5000 students, otherwise it should print 'Not so much'
 
-class Course {
-  name: string;
-  noOfStudents: number;
-  constructor(name: string, noOfStudents: number) {
-    this.name = name;
-    this.noOfStudents = noOfStudents;
-  }
+// class Course {
+//   name: string;
+//   noOfStudents: number;
+//   constructor(name: string, noOfStudents: number) {
+//     this.name = name;
+//     this.noOfStudents = noOfStudents;
+//   }
 
-  bestSeller(): string {
-    return this.noOfStudents >= 5000 ? "Best Seller" : "Not so much";
-  }
-}
+//   bestSeller(): string {
+//     return this.noOfStudents >= 5000 ? "Best Seller" : "Not so much";
+//   }
+// }
 
-const flexCourse = new Course("Flexbox Course", 4500);
-const tailwindCourse = new Course("Tailwind Course", 5500);
+// const flexCourse = new Course("Flexbox Course", 4500);
+// const tailwindCourse = new Course("Tailwind Course", 5500);
 
-console.log(flexCourse.bestSeller());
-console.log(tailwindCourse.bestSeller());
+// console.log(flexCourse.bestSeller());
+// console.log(tailwindCourse.bestSeller());
 
 //Challenge 8
 //Write a function that sets the price of a course and takes either a number or undefined. If undefined is passed, it returns a price of 9.99, otherwise it returns the given price

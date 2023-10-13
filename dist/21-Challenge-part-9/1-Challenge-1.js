@@ -13,19 +13,6 @@ function myNum(arg) {
 }
 console.log(myNum(23));
 console.log(myNum(undefined));
-class Course {
-    constructor(name, noOfStudents) {
-        this.name = name;
-        this.noOfStudents = noOfStudents;
-    }
-    bestSeller() {
-        return this.noOfStudents >= 5000 ? "Best Seller" : "Not so much";
-    }
-}
-const flexCourse = new Course("Flexbox Course", 4500);
-const tailwindCourse = new Course("Tailwind Course", 5500);
-console.log(flexCourse.bestSeller());
-console.log(tailwindCourse.bestSeller());
 function setCoursePrice(price) {
     return price !== null && price !== void 0 ? price : 9.99;
 }
