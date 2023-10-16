@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": false,
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
+  },
+  "watchOptions": {
+    "excludeDirectories": ["**/node_modules", "dist"]
+  }
+}
